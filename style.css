@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #24362d;
+    background-color: #f7f8f4;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #24362d;
+}
+
+a:focus-visible, button:focus-visible {
+    outline: 3px solid #8a4d0f;
+    outline-offset: 4px;
+}
+
+.navbar-brand {
+    color: #24563d;
+}
+
+.nav-link {
+    color: #46574c;
+}
+
+.hero {
+    background-color: #edf3e9;
+}
+
+.section-label {
+    color: #3f634c;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.btn-success {
+    background-color: #24563d;
+    border-color: #24563d;
+}
+
+.btn-success:hover {
+    background-color: #193e2b;
+    border-color: #193e2b;
+}
+
+.btn-outline-success {
+    color: #24563d;
+    border-color: #24563d;
+}
+
+.btn-outline-success:hover {
+    background-color: #24563d;
+    border-color: #24563d;
+}
+
+.activities {
+    padding: 2.5rem 1.25rem;
+}
+
+.activities-inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.activities h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.activities-intro {
+    color: #5a645d;
+    margin-bottom: 1.5rem;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.activity-item {
+    padding: 1.5rem;
+    border: 1px solid #dce4d8;
+    border-radius: 0.75rem;
+    background-color: white;
+}
+
+.activity-number {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #3f634c;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.activity-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.activity-item p {
+    color: #5a645d;
+    margin: 0;
+}
+
+.card {
+    border-color: #dce4d8;
+    border-radius: 0.75rem;
+}
+
+.session-day {
+    color: #3f634c;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #edf3e9;
+    color: #24563d;
+}
+
+.contact {
+    background-color: #edf3e9;
+}
+
+@media (min-width: 768px) {
+    .activities {
+        padding: 3rem 1.5rem;
+    }
+
+    .activities-inner {
+        width: 94%;
+    }
+
+    .activities h2 {
+        font-size: 2rem;
+    }
+
+    .activity-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .activities-inner {
+        width: 86%;
+    }
+
+    .activity-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
